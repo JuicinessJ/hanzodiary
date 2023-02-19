@@ -1,13 +1,18 @@
-const html = require('express').Router();
+const router = require('express').Router();
 const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
-// const { v4: uuidv4 } = require('uuid');
 
-html.get('/', (req, res) => {
+router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
 
-html.get('/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 })
 
-module.exports = html;
+// localhost:3001/anything else
+router.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+})
+
+
+module.exports = router;

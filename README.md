@@ -2,7 +2,7 @@
 
 ## Description
 
-To Create a Template of Team Members with their information.
+A note taking app which allows the user to write notes and create different note cards.  
 
 ## Table of Contents
 
@@ -19,11 +19,11 @@ Open Github > Hit Green "Code" Button > Inside the Clone drop down box select me
 
 ## Usage
 
-![group](https://drive.google.com/file/d/13pGsls1ENHtmfAu-ID6a2zWrQWbH36dG/view)
+![group]()
 
 # Credits
 
-Used old and previous contents with other outside resources such as google with led to W3, Mozilla, StackOverFlow, and documentations. Also received helped from Andrew + Savien.
+Used old and previous contents with other outside resources such as google with led to W3, Mozilla, StackOverFlow, and documentations.
 
 ## License
 
@@ -51,4 +51,4 @@ SOFTWARE.
 
 ## Feature
 
-This app intention is to create a page of team members and their information while looking organized and clean.
+Create a simple looking note taker app, which records and logs notes taken.
