@@ -23,7 +23,7 @@ Open Github > Hit Green "Code" Button > Inside the Clone drop down box select me
 
 # Credits
 
-Used old and previous contents with other outside resources such as google with led to W3, Mozilla, StackOverFlow, and documentations.
+Used old and previous contents with other outside resources such as google with led to W3, Mozilla, StackOverFlow, and documentations. Also with the help of Andrew
 
 ## License
 
