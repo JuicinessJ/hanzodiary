@@ -38,7 +38,7 @@ router.delete('/notes/:id', (req, res) => {
         .then((data) => JSON.parse(data))
         .then((data) => {
             const newArray = data.filter((singleNote) => singleNote.id != req.params.id)
-            writeToFile('./db/db.json', JSON.stringify(newArray));
+            writeToFile('./db/db.json', newArray);
             res.json(`Note ${singleNote.id} has been deleted`);
         });
 })
